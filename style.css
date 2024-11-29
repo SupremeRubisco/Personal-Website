@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@200..800&display=swap');
+
+body{
+    background: wheat;
+    font-family: "Sono", serif;
+    font-optical-sizing: auto;
+}
+#welcome{
+    margin-top: 25vh;
+    color: #262828;
+    font-size: 5vh;
+}
+
+#welcomeTitle{
+    padding-left: 5vw;
+
+}
+@media (max-width: 479px) {
+    #welcome{
+        margin-top: 10vh;
+        font-size: 3vh;
+    }
+    #welcomeTitle{
+        padding-left: 2vw;
+    }
+}
+
+nav {
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    float: left;
+    display: block;
+    color: #262828;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#navTitle{
+    float: left;
+    display: block;
+    color: #262828;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 800;
+    font-variation-settings:
+            "MONO" 1;
+}
+
+#divider{
+    border: 0;
+    height: 1px;
+    background: #262828;
+}
+
+#learnMore{
+    text-align: center;
+    margin-top: 30vh;
+    font-weight: bold;
+}
+
+#learnMore:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
