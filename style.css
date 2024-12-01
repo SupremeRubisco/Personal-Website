@@ -1,26 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Sono:wght@200..800&display=swap');
 
-body{
+body {
     background: wheat;
     font-family: "Sono", serif;
     font-optical-sizing: auto;
 }
-#welcome{
+
+#welcome {
     margin-top: 25vh;
     color: #262828;
     font-size: 5vh;
 }
 
-#welcomeTitle{
+#welcomeTitle {
     padding-left: 5vw;
 
 }
+
 @media (max-width: 479px) {
-    #welcome{
+    #welcome {
         margin-top: 10vh;
         font-size: 3vh;
     }
-    #welcomeTitle{
+
+    #welcomeTitle {
         padding-left: 2vw;
     }
 }
@@ -54,7 +57,7 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
-#navTitle{
+#navTitle {
     float: left;
     display: block;
     color: #262828;
@@ -62,31 +65,31 @@ nav ul li a:hover {
     padding: 14px 16px;
     text-decoration: none;
     font-weight: 800;
-    font-variation-settings:
-            "MONO" 1;
+    font-variation-settings: "MONO" 1;
 }
 
-#divider{
+#divider {
     border: 0;
     height: 1px;
     background: #262828;
 }
 
-#learnMore{
+#learnMore {
     text-align: center;
     margin-top: 30vh;
     font-weight: bold;
 }
 
-#learnMore:hover{
+#learnMore:hover {
     cursor: pointer;
     text-decoration: underline;
 }
 
-.card{
+.card {
     background: #D5B5EA;
     padding: 5%;
     width: 15vw;
+    flex: 0 0 auto;
     height: 40vh;
     display: flex;
     flex-direction: column;
@@ -94,30 +97,55 @@ nav ul li a:hover {
     border-radius: 10%;
     margin-left: 5vw;
     margin-top: 5vh;
+    overflow: auto;
+    text-overflow: ellipsis; /* Add ellipsis for overflowed text */
+    white-space: normal;
+    overflow-x: hidden;
 }
 
-.card img{
+.card img {
     margin-top: -30%;
     width: 10em;
 }
 
-.card h2{
-    margin-top: 0;
+.card h2 {
+    margin-top: 5%;
+    font-size: 5vh;
+}
+
+.card p {
+    margin: -10% -20% -20%;
+    overflow: hidden; /* Hide overflow */
+    text-overflow: ellipsis; /* Add ellipsis for overflowed text */
+    white-space: normal;
+}
+
+.cardList {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap;
+}
+
+.listTitle {
+    margin-top: 10vh;
+    margin-left: 5vw;
     font-size: 7vh;
 }
 
-.card p{
-    margin-left: -20%;
-    margin-top: -10%;
-    margin-right: -20%;
+#stupidFix {
+    font-family: Arial, sans-serif;
 }
 
-.cardList{
-    display: flex;
-
+#whoami {
+    font-size: 7vh;
+    text-align: center;
 }
 
-#know{
-    margin-top: 10vh;
-    margin-left: 5vw;
+#whoamiList {
+    column-count: 2;
+}
+
+#whoamiList li {
+    width: 45%;
+    padding-top: 5%;
 }
