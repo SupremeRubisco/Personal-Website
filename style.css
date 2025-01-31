@@ -157,6 +157,7 @@ nav ul li a:hover {
 #whoamiTitle {
     font-size: 7vh;
     text-align: center;
+    margin-top: 10vh;
 }
 
 .center{
@@ -180,3 +181,14 @@ nav ul li a:hover {
     height: 70vh;
 }
 
+#more{
+    margin-top: 25vh;
+}
+
+#whoamiListdiv{
+margin-top: 5vh;
+}
+
+#footer{
+
+}
