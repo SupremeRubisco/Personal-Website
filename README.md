@@ -9,5 +9,5 @@ I don't really have anything else to say.
 ## So?
 I really don't have anything else to say.
 ## Missing Anything?
-Nope, and why are you reading this? Go visit website I made!
+Nope, and why are you reading this? Go visit the website I made!
 ### Enjoy! 😉
