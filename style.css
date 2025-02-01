@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Sono:wght@200..800&display=swap');
 
-body {
+html, body {
     background: wheat;
     font-family: "Sono", serif;
     font-optical-sizing: auto;
+
 }
 
 #welcome {
@@ -189,6 +190,8 @@ nav ul li a:hover {
 margin-top: 5vh;
 }
 
-#footer{
-
+#footer {
+    margin-top: 25vh;
+    width: 100%;
+    background-color: #262828;
 }
