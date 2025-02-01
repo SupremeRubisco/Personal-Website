@@ -7,7 +7,7 @@ html, body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
-
+    scroll-behavior: smooth;
 }
 
 #welcome {
@@ -162,6 +162,7 @@ nav ul li a:hover {
     font-size: 7vh;
     text-align: center;
     margin-top: 10vh;
+    scroll-margin-top: 20vh;
 }
 
 .center{
@@ -203,4 +204,20 @@ margin-top: 5vh;
     position: relative;
     left: 0;
     bottom: 0;
+}
+
+#whatIKnowTitle{
+    scroll-margin-top: 15vh;
+}
+
+#softwareTitle{
+    scroll-margin-top: 15vh;
+}
+
+#learningTitle{
+    scroll-margin-top: 15vh;
+}
+
+#willLearnTitle{
+    scroll-margin-top: 15vh;
 }
